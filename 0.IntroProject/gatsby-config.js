@@ -5,5 +5,23 @@
  */
 
 module.exports = {
-  plugins: [`gatsby-plugin-styled-components`],
+  siteMetadata: {
+    title: 'tutorial',
+    description: 'just a playground',
+    author: 'jaron',
+    data: {
+      age: '26',
+      name: 'mike',
+    },
+  },
+  plugins: [
+    `gatsby-plugin-styled-components`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/static/images/`,
+      },
+    },
+  ],
 }
