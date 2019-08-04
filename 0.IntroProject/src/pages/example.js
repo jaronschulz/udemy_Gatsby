@@ -1,10 +1,10 @@
-import React from 'react'
-import Header from '../components/Header'
-import Layout from '../components/layout'
-import { graphql } from 'gatsby'
+import React from 'react';
+import Header from '../components/Header';
+import Layout from '../components/layout';
+import { graphql } from 'gatsby';
 
 const example = props => {
-  const { name, age } = props.data.site.siteMetadata.person
+  const { name, age } = props.data.site.siteMetadata.person;
   return (
     <Layout>
       example page
@@ -13,8 +13,8 @@ const example = props => {
         this is the Person: <h4>name: {name}</h4> <h4>age: {age}</h4>
       </div>
     </Layout>
-  )
-}
+  );
+};
 
 export const getData = graphql`
   query {
@@ -30,6 +30,6 @@ export const getData = graphql`
       }
     }
   }
-`
+`;
 
-export default example
+export default example;

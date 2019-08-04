@@ -16,10 +16,10 @@ module.exports = {
     },
   },
   plugins: [
-    'gatsby-plugin-styled-components',
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
-    'gatsby-plugin-eslint',
+    `gatsby-plugin-styled-components`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-eslint`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

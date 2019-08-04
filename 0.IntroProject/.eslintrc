@@ -5,6 +5,7 @@
     "browser": true
   },
   "extends": ["plugin:prettier/recommended"],
+  "parser": "babel-eslint",
   "ecmaFeatures": {
     "jsx": true,
     "experimentalObjectRestSpread": true
@@ -15,8 +16,8 @@
     "sourceType": "module"
   },
   "rules": {
-    "eslint(quotes)": [2, "single", { "allowTemplateLiterals": true }],
+    "quotes": [2, "single", { "allowTemplateLiterals": true }],
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-    "eslint(semi)": 0
+    "semi": 0
   }
 }
