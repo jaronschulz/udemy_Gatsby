@@ -8,7 +8,7 @@ const Tours = ({ tours }) => {
       <h2>on tours</h2>
       <div className={styles.center}>
         {tours.map(({ node }) => {
-          return <SingleTour id={node.id} tour={node} />;
+          return <SingleTour key={node.id} tour={node} />;
         })}
       </div>
     </section>

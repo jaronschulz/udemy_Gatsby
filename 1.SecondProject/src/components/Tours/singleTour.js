@@ -39,7 +39,7 @@ SingleTour.propTypes = {
     country: PropTypes.string.isRequired,
     price: PropTypes.number.isRequired,
     days: PropTypes.number.isRequired,
-    images: PropTypes.arrayOf(propTypes.object).isRequired,
+    images: PropTypes.arrayOf(PropTypes.object).isRequired,
   }),
 };
 
