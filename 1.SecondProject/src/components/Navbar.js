@@ -1,5 +1,5 @@
-import React from 'react'
-import { Link } from 'gatsby'
+import React from 'react';
+import { Link } from 'gatsby';
 // import styles from './navbar.module.scss'
 const Navbar = () => {
   return (
@@ -21,9 +21,12 @@ const Navbar = () => {
         <li>
           <Link to="/images/">Images</Link>
         </li>
+        <li>
+          <Link to="/tours/">Tours</Link>
+        </li>
       </ul>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
