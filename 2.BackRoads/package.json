@@ -14,8 +14,10 @@
   },
   "dependencies": {
     "gatsby": "^2.13.67",
+    "gatsby-cli": "^2.7.40",
     "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "react-dom": "^16.9.0",
+    "react-icons": "^3.7.0"
   },
   "devDependencies": {
     "prettier": "^1.18.2"
