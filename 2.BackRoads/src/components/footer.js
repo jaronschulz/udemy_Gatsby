@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import { FaRProject } from 'react-icons/fa'
 
 import styles from '../css/footer.module.css'
 import links from '../constants/links'
