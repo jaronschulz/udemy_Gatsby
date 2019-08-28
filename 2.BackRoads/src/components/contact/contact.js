@@ -8,8 +8,13 @@ const Contact = () => {
         <section className={styles.contact}>
             <StyledTitle title="contact" subtitle="us" />
             <div className={styles.center}>
-                <form className={styles.form} action="">
+                <form
+                    className={styles.form}
+                    action="https://formspree.io/jaronschulz@gmail.com"
+                    method="POST"
+                >
                     <div>
+                        <label htmlFor="name">name</label>
                         <input
                             type="text"
                             name="name"
@@ -18,6 +23,7 @@ const Contact = () => {
                             placeholder="john doe"
                         />
                     </div>
+                    <label htmlFor="email">email</label>
                     <div>
                         <input
                             type="email"
@@ -27,6 +33,7 @@ const Contact = () => {
                             placeholder="john@doe.com"
                         />
                     </div>
+                    <label htmlFor="message">message</label>
                     <div>
                         <textarea
                             name="message"
