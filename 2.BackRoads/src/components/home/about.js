@@ -4,7 +4,6 @@ import Img from 'gatsby-image'
 
 import StyledTitle from '../styled-title'
 import styles from '../../css/about.module.css'
-import img from '../../images/defaultBcg.jpeg'
 
 const getAbout = graphql`
     query aboutImage {
